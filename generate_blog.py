@@ -94,7 +94,7 @@ def clear_old_generated_html():
     if not os.path.exists(OUTPUT_DIR):
         return
 
-    protected_files = {"index.html", "about.html"}
+    protected_files = {"index.html", "about.html", "404.html"}
 
     for filename in os.listdir(OUTPUT_DIR):
         if not filename.endswith(".html"):
