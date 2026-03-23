@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Home — more of less{% endblock %}
+
+{% block content %}
+
+{% for post in posts %}
+<article class="article">
+    <h2 class="post-title">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    <time datetime="{{ post.iso_date }}" class="post-date">{{ post.date }}</time>
+</article>
+{% endfor %}
+
+{% endblock %}

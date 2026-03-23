@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}{{ post.title }} — more of less{% endblock %}
+
+{% block before_main %}
+<a href="index.html" class="back-link">← Back</a>
+{% endblock %}
+
+{% block content %}
+
+<article class="article">
+    <h1 class="post-title">
+        {{ post.title }}
+    </h1>
+    <time datetime="{{ post.iso_date }}" class="post-date">{{ post.date }}</time>
+
+    <div class="post-body">
+        {{ post.body | safe }}
+    </div>
+</article>
+
+{% endblock %}
