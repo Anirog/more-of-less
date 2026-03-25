@@ -135,3 +135,46 @@ img {
     width: 100%;
     display: block;
 }
+
+.post-body ul,
+.post-body ol {
+    margin-bottom: 1rem;
+    padding-left: 1.23rem;
+}
+
+.post-body hr {
+    background-color: var(--background);
+    margin: 2.5rem 0;
+    opacity: 0.3;
+}
+
+.post-body blockquote {
+    font-style: italic;
+    border-left: 2px solid var(--accent);
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.post-body p > code {
+    display: inline-block;
+    font-family: "Courier New", Courier, monospace;
+    background: rgba(0, 0, 0, 0.08);
+    padding: 0.1rem 0.5rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
+
+.post-body pre {
+    font-family: "Courier New", Courier, monospace;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    overflow-x: auto;
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+}
+
+.post-body pre code {
+    font-family: "Courier New", Courier, monospace;
+    background: transparent;
+    padding: 0;
+}
