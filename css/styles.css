@@ -138,8 +138,35 @@ img {
 
 .post-body ul,
 .post-body ol {
+    list-style: none;
     margin-bottom: 1rem;
-    padding-left: 1.23rem;
+    padding-left: 0;
+}
+
+.post-body ul li,
+.post-body ol li {
+    display: grid;
+    grid-template-columns: 1.5rem 1fr;
+    align-items: start;
+}
+
+.post-body ul li::before {
+    content: "•";
+    text-align: center;
+}
+
+.post-body ol {
+    counter-reset: post-list;
+}
+
+.post-body ol li {
+    counter-increment: post-list;
+}
+
+.post-body ol li::before {
+    content: counter(post-list) ".";
+    font-variant-numeric: tabular-nums;
+    text-align: right;
 }
 
 .post-body hr {
