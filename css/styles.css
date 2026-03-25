@@ -161,6 +161,7 @@ img {
 
 .post-body ol li {
     counter-increment: post-list;
+    column-gap: 0.4rem;
 }
 
 .post-body ol li::before {
