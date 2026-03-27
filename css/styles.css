@@ -84,6 +84,10 @@ h2 {
     font-size: 0.875rem; /* 14px */
 }
 
+.post-reading-time {
+    margin-top: 0.5rem; /* 8px */
+}
+
 .footer a {
     display: block;
     font-size: 1.125rem; /* 18px */
