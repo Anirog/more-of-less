@@ -13,6 +13,7 @@
         {{ post.title }}
     </h1>
     <time datetime="{{ post.iso_date }}" class="post-date">{{ post.date }}</time>
+    <p class="post-date post-reading-time">{{ post.reading_time }} min read</p>
 
     <div class="post-body">
         {{ post.body | safe }}

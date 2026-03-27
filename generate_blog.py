@@ -3,6 +3,7 @@ import shutil
 import markdown
 import yaml
 import datetime
+import math
 from jinja2 import Environment, FileSystemLoader
 
 # Paths
@@ -51,12 +52,15 @@ def parse_post(filepath):
     iso_date = date_obj.isoformat()
 
     html_body = markdown.markdown(body_markdown)
+    word_count = len(body_markdown.split())
+    reading_time_minutes = max(1, math.ceil(word_count / 200))
 
     return {
         "title": title,
         "slug": slug,
         "date": formatted_date,
         "iso_date": iso_date,
+        "reading_time": reading_time_minutes,
         "body": html_body,
         "url": f"{slug}.html",
         "filename": f"{slug}.html",
