@@ -1,5 +1,5 @@
 ---
-title: Mark Hollis: A Perfect Silence
+title: Mark Hollis - A Perfect Silence
 date: 2026-03-28
 slug: mark-hollis-a-perfect-silence
 ---
