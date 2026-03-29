@@ -149,14 +149,16 @@ img {
 
 .post-body ul li,
 .post-body ol li {
-    display: grid;
-    grid-template-columns: 1.5rem 1fr;
-    align-items: start;
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .post-body ul li::before {
     content: "•";
-    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .post-body ol {
@@ -165,13 +167,14 @@ img {
 
 .post-body ol li {
     counter-increment: post-list;
-    column-gap: 0.4rem;
 }
 
 .post-body ol li::before {
     content: counter(post-list) ".";
+    position: absolute;
+    left: 0;
+    top: 0;
     font-variant-numeric: tabular-nums;
-    text-align: right;
 }
 
 .post-body hr {
