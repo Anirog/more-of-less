@@ -7,6 +7,7 @@
     <meta name="color-scheme" content="light dark">
 
     {% set meta_description_content %}{% block meta_description %}Blog posts about design, photography, and quiet creativity.{% endblock %}{% endset %}
+    {% set social_title_content %}{% if post is defined %}more of less - {{ post.title }}{% else %}more of less{% endif %}{% endset %}
 
     <title>{% block title %}more of less{% endblock %}</title>
 
@@ -20,7 +21,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="more of less">
+    <meta property="og:title" content="{{ social_title_content | trim | e }}">
     <meta property="og:description" content="{{ meta_description_content | trim }}">
     <meta property="og:image" content="https://larrieknights.com/social-preview.png">
     <meta property="og:url" content="https://larrieknights.com">
@@ -28,7 +29,7 @@
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="more of less">
+    <meta name="twitter:title" content="{{ social_title_content | trim | e }}">
     <meta name="twitter:description" content="{{ meta_description_content | trim }}">
     <meta name="twitter:image" content="https://larrieknights.com/social-preview.png">
 
