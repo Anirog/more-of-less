@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 {% block title %}{{ post.title }} — more of less{% endblock %}
+{% block meta_description %}{{ (post.body | striptags | trim or post.title) | truncate(150) | e }}{% endblock %}
 
 {% block before_main %}
 <a href="index.html" class="back-link">← Back</a>
