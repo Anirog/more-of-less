@@ -4,4 +4,4 @@ date: 2026-06-19
 slug: lamp-post-with-stick-on-eyes
 ---
 
-![Lamp Post With Stick on Eyes](https://ik.imagekit.io/1wh3oo1zp/DSC07877_7jUtSZUw5)
+![Lamp Post With Stick on Eyes](https://ik.imagekit.io/1wh3oo1zp/fence-post-with-stick-on-eyes_1Q2O8agll)
