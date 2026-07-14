@@ -1,11 +1,13 @@
 ---
-title: One Tree Hill
+title: Lonely Tree Photo
 date: 2026-07-14
 slug: one-tree-hill
 ---
 
-My photo of a tree on a hill has been used on a book cover by [Edward T. Vaughan](https://www.amazon.co.uk/Edward-T-Vaughan/e/B004XRP2L8/ref=dp_byline_cont_ebooks_1) and a set of cards by [Jacky Newcomb](https://www.simonandschuster.co.uk/authors/Jacky-Newcomb/141410091)
+My lonely tree photograph has been featured on websites, magazines a book cover and even a set of cards.
 
-![A lone tree on a hill in the peak disctrict](https://ik.imagekit.io/1wh3oo1zp/one-tree-hill-by-larrie-knights_2mqWeJ0Vi)
+![A lone tree on a hill in the peak district](https://ik.imagekit.io/1wh3oo1zp/one-tree-hill-by-larrie-knights_2mqWeJ0Vi)
 
-![Jacky Necomb Messages From Heaven Card and the book Faded Lives by Edward T. Vaughan](https://ik.imagekit.io/1wh3oo1zp/DSC07889_Y0_5bRDis)
+[![Faded Lives book by Edward T. Vaughan](https://ik.imagekit.io/1wh3oo1zp/faded-lives-book_Dr5aBvaHC 'Faded Lives book by Edward T. Vaughan')](https://www.amazon.co.uk/Faded-Lives-Edward-T-Vaughan-ebook/dp/B004XNLIH4)
+
+[![Messages from Heaven Communication Cards](https://ik.imagekit.io/1wh3oo1zp/DSC07890_Ez9_pewU1?updatedAt=1784028437280 'Messages from Heaven Communication Cards')](https://www.simonandschuster.co.uk/authors/Jacky-Newcomb/141410091)
