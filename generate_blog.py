@@ -85,6 +85,7 @@ def load_posts():
         else:
             print(f"⚠️ Skipped invalid post file: {filename}")
 
+    posts.sort(key=lambda x: x["slug"])
     posts.sort(key=lambda x: x["iso_date"], reverse=True)
     return posts
 
