@@ -8,7 +8,9 @@ This week I noticed that writing a good prompt changed how I thought about the p
 
 Trying to solve a problem in my head allowed me to leave parts of it undefined. Writing a prompt required me to name the result I wanted, what I already knew, what I had tried and the exact point where I was stuck. Once I had written those things down, the next action sometimes became obvious.
 
-This is similar to rubber duck debugging. Explaining a problem exposes assumptions and missing steps that are easy to overlook while thinking silently. The useful part is not only the answer that comes back. It is the work involved in asking the question properly.
+This is similar to [rubber duck debugging](https://rubberduckdebugging.com). Explaining a problem exposes assumptions and missing steps that are easy to overlook while thinking silently. The useful part is not only the answer that comes back. It is the work involved in asking the question properly.
+
+[![Rubber duck on a wooden kitchen table](https://ik.imagekit.io/1wh3oo1zp/IMG_1610_pVksjgWRr 'Rubber Duck Debugging')](https://rubberduckdebugging.com)
 
 This changed how I used Codex on the Bike Barn landing page. Instead of asking it to build the whole page in one request, I asked it to work section by section. When I wanted to refine the typography, annotation mode let me point directly to the text that needed attention instead of regenerating everything. Each prompt dealt with a defined part of the page.
 
