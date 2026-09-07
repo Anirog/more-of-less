@@ -1,5 +1,7 @@
 # more of less
 
+![Screenshot of the more of less blog](images/more-of-less-screenshot.png)
+
 A minimal blog inspired by Dieter Rams’ “less but better”.
 
 ---
