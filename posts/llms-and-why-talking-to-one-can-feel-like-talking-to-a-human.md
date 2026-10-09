@@ -7,9 +7,11 @@ slug: llms-and-why-talking-to-one-can-feel-like-talking-to-a-human
 ## Imagine if the conversation went something like this
 
 Me:
+
 My dog died today.
 
 LLM:
+
 1. Create Query, Key, and Value vectors.
 2. Compute similarity scores between queries and keys.
 3. Turn them into weights with softmax.
