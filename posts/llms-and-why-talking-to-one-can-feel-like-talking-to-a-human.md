@@ -10,7 +10,6 @@ Me:
 My dog died today.
 
 LLM:
-
 1. Create Query, Key, and Value vectors.
 2. Compute similarity scores between queries and keys.
 3. Turn them into weights with softmax.
