@@ -38,7 +38,7 @@ My dog died today.
 
 I'm sorry to hear that. Would you like to tell me about your dog?
 
-## Why does it feel like a conversation?
+# Why does it feel like a conversation?
 
 Because the model has learned patterns of human language, including how people respond to questions, express sympathy, explain ideas and maintain a conversation.
 
