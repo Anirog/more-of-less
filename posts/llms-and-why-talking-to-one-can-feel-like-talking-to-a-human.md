@@ -17,6 +17,8 @@ My dog died today.
 3. Turn them into weights with softmax.
 4. Take a weighted average of the values.
 
+---
+
 It wouldn't feel much like a natural conversation, would it? 😀
 
 ## So what actually happens?
@@ -37,6 +39,8 @@ My dog died today.
 **LLM:**  
 
 I'm sorry to hear that. Would you like to tell me about your dog?
+
+---
 
 # Why does it feel like a conversation?
 
