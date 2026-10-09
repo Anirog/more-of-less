@@ -63,33 +63,33 @@
 
     <div class="post-body">
         <h2>Imagine if the conversation went something like this</h2>
-<p>Me:</p>
+<p><strong>Me:</strong>  </p>
 <p>My dog died today.</p>
-<p>LLM:</p>
+<p><strong>LLM:</strong></p>
 <ol>
 <li>Create Query, Key, and Value vectors.</li>
 <li>Compute similarity scores between queries and keys.</li>
 <li>Turn them into weights with softmax.</li>
 <li>Take a weighted average of the values.</li>
 </ol>
-<p>It wouldn’t feel much like a natural conversation, would it? 😀</p>
-<p>So what actually happens?</p>
+<p>It wouldn't feel much like a natural conversation, would it? 😀</p>
+<h2>So what actually happens?</h2>
 <p>When you send a message to an LLM:</p>
 <ol>
-<li>Tokenisation: Your text is broken into tokens, each with a numerical ID.</li>
-<li>Numerical representations: The token IDs are converted into vectors (collections of numbers) that the model can process.</li>
-<li>Self-attention: This mechanism helps the model use relationships between tokens and their context, rather than treating every word independently.</li>
-<li>Text generation: Using patterns learned during training, the model predicts and generates a response, one token at a time. The output tokens are converted back into readable text.</li>
+<li><strong>Tokenisation:</strong> Your text is broken into tokens, each with a numerical ID.</li>
+<li><strong>Numerical representations:</strong> The token IDs are converted into vectors (collections of numbers) that the model can process.</li>
+<li><strong>Self-attention:</strong> This mechanism helps the model use relationships between tokens and their context, rather than treating every word independently.</li>
+<li><strong>Text generation:</strong> Using patterns learned during training, the model predicts and generates a response, one token at a time. The output tokens are converted back into readable text.</li>
 </ol>
 <p>Fortunately, rather than explaining its internal calculations, the LLM might respond with something like this:</p>
-<p>Me:
-My dog died today.</p>
-<p>LLM:
-I’m sorry to hear that. Would you like to tell me about your dog?</p>
-<p>Why does it feel like a conversation?</p>
+<p><strong>Me:</strong>  </p>
+<p>My dog died today.</p>
+<p><strong>LLM:</strong>  </p>
+<p>I'm sorry to hear that. Would you like to tell me about your dog?</p>
+<h2>Why does it feel like a conversation?</h2>
 <p>Because the model has learned patterns of human language, including how people respond to questions, express sympathy, explain ideas and maintain a conversation.</p>
-<p>When an LLM says something like “Something you said stood out to me”, it’s using a familiar conversational expression.</p>
-<p>That doesn’t mean it necessarily experienced curiosity or noticed something in the human sense.</p>
+<p>When an LLM says something like "Something you said stood out to me", it's using a familiar conversational expression.</p>
+<p>That doesn't mean it necessarily experienced curiosity or noticed something in the human sense.</p>
 <p>The important distinction is that an LLM can generate language that resembles human conversation, even though the computational process behind it is very different from human thinking.</p>
     </div>
 
